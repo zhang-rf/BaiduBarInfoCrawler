@@ -15,19 +15,19 @@ class DataSaver(object):
         forumList = []
         for forum in forums:
             forumList.append((forum.name,forum.userid))
-        res = self.db.insertmany('forums',forumList)
+        res = self.db.batchInsert('forums', forumList)
         return res
 
     def insertFans(self,fans):
         fansList = []
         for fansInfo in fans:
             fansList.append( (fansInfo.fansid,fansInfo.userid) )
-        res = self.db.insertmany('fans',fansList)
+        res = self.db.batchInsert('fans', fansList)
         return res
 
     def insertFollow(self,follows):
         followList = []
         for follow in follows:
            followList.append( (follow.followid,follow.userid) )
-        res = self.db.insertmany('follow',followList)
+        res = self.db.batchInsert('follow', followList)
         return res

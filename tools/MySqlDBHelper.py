@@ -13,7 +13,7 @@ class MySqlDBHelper(object):
         try:
             self.connecter.close()
         except:
-            print("connecter ERROR")
+            print("connecter close ERROR")
 
     def getConnect(self,host,user,password,db,port):
         try:
@@ -60,7 +60,7 @@ class MySqlDBHelper(object):
             print("Insert Error-Table:"+table)
             return 0
 
-    def insertmany(self,table,values):
+    def batchInsert(self, table, values):
         """ Batch insertions of row data into :table.Values must be a LIST of TUPLES """
         try:
             num = values[0].__len__()

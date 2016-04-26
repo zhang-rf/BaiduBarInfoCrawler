@@ -2,9 +2,9 @@
 import re
 
 from database.Model import *
-from service.util.AnalysiserCreater import AnalysiserCreater
+from service.AnalysiserCreater import AnalysiserCreater
 
-
+#可能会抛出数据解析错误的异常
 class MainDataAnalysiser(object):
     def __init__(self,url,xpath_dict):
         self.analysiser = AnalysiserCreater(url).analysiser

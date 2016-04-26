@@ -20,15 +20,3 @@ class HtmlTools:
             return html
         except:
             return None
-
-
-
-
-
-if __name__ == '__main__':
-    url = "http://tieba.baidu.com/home/main?un=怪怪盗鲁邦&fr=ibaidu&ie=utf-8"
-    url2 = "http://tieba.baidu.com/home/main?un=他未走灬&fr=ibaidu&ie=utf-8"
-    tool = HtmlTools()
-    h1 = tool.getByRequests(url)
-    h2 = tool.getByUrllib(url2)
-    print(h1)
