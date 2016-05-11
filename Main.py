@@ -3,8 +3,7 @@ from service.DataSaver import DataSaver
 from service.MainDataAnalysiser import MainDataAnalysiser
 from tools.ConfigReader import ConfigReader
 from tools.ThreadPool import *
-import threading
-import time
+
 
 syspath = "G:\My project\PythonProjects\MyCrawler\config\SysConfig.ini"
 
@@ -18,6 +17,9 @@ class CrawlerMain(object):
         self.startUrl = syscfr.readConfig('Config','url')
         self.dbPath = syscfr.readConfig('Path','db')
         self.xpath = syscfr.readConfig('Path','xpath')
+        dbutil = DataSaver(self.dbPath).dbUtil
+        dbutil._initDatabase()
+
 
     def startAnslysisData(self,url):
             if url in scaned:

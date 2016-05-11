@@ -4,7 +4,8 @@ from database.Database import Database
 
 class DataSaver(object):
     def __init__(self,dbPath):
-        self.db = Database(dbPath).db
+        self.dbUtil = Database(dbPath)
+        self.db = self.dbUtil.db
 
     def insertUser(self,user):
         user_info = [user.userid,user.sex,user.age,user.post]
