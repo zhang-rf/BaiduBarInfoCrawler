@@ -63,6 +63,7 @@ class MySqlDBHelper(object):
     def batchInsert(self, table, values):
         """ Batch insertions of row data into :table.Values must be a LIST of TUPLES """
         try:
+        # if True:
             num = values[0].__len__()
             sql = 'insert into ' + table + " values(";
             i = 0
@@ -93,4 +94,143 @@ class MySqlDBHelper(object):
         except:
             print("Update/Delete Error:"+sql)
             return 0
+
+    def createDatabase(self,name):
+        try:
+            cursor = self.connecter.cursor()
+            sql = "create database " + name
+            cursor.execute(sql)
+            return True
+        except:
+            print("Database exist or cursor error")
+            return False
+
+    def createTable(self,tableName):
+        try:
+            cursor = self.connecter.cursor()
+            sql = "create database " + tableName
+            cursor.execute(sql)
+            return True
+        except:
+            print("Database exist or cursor error")
+            return False
+
+    def getAllDatabase(self):
+        try:
+            dbList = []
+            cursor = self.connecter.cursor()
+            cursor.execute("show databases")
+            for db in cursor.fetchall():
+                dbList.append(db[0])
+            return dbList
+        except:
+            print("getAllDatabase error")
+            return None
+
+    def getAllTables(self,database):
+        try:
+            cursor = self.connecter.cursor()
+            cursor.execute("use "+database)
+            cursor.execute("show tables")
+            tables = []
+            for tab in cursor.fetchall():
+                tables.append(tab)
+            return tables
+        except:
+            print("getAllTables error")
+            return None
+
+    def createTable(self,db,tableName,fields,keys,types):
+        """:db 数据库名, fields: 字段列表，keys: 主键列表，types:字段对应的类型"""
+        try:
+            if fields == None or fields.__len__() == 0 or fields.__len__() != types.__len__():
+                return False
+            if keys == None:
+                keys = []
+
+            self.connecter.cursor().execute("use "+db)
+            if(tableName not in self.getAllTables(db)):
+                sql = "create TABLE " + tableName;
+                fs = "("
+                i = 0
+                while i < fields.__len__():
+                    if fs != "(":
+                        fs +=","
+                    fs +=( fields[i]+" " + types[i] + " ")
+                    i += 1
+
+                i = 0
+                pk = ""
+                if keys.__len__() != 0:
+                    while i < keys.__len__():
+                        if pk == "":
+                            pk += "primary key("+keys[i]
+                        else:
+                            pk += ","+keys[i]
+                        i+=1
+                pk+=")"
+                if pk != "":
+                    fs+=","+pk
+                fs += ")"
+                sql += fs
+                self.connecter.cursor().execute(sql)
+                print("create_table Success")
+                return True
+            else:
+                return False
+        except:
+            print("CreateTable error")
+            return False
+
+
+
+
+
+if __name__ == '__main__':
+    db = MySqlDBHelper("tx.atomicer.cn","root","Raomengnan766","test",3309)
+    a = db.connecter
+
+    # print(type("123"))
+    # print(type(123))
+    # print(type("123.12"))
+    # print("\'")
+
+
+    # tb = "tbtest"
+    # def createTable(tableName,fields,keys,types):
+    #         """:db 数据库名, fields: 字段列表，keys: 主键列表，types:字段对应的类型"""
+    #         if True:
+    #             sql = "create TABLE " + tableName;
+    #             fs = "("
+    #             i = 0
+    #             while i < fields.__len__():
+    #                 if fs != "(":
+    #                     fs +=","
+    #                 fs +=( fields[i]+" " + types[i] + " ")
+    #                 i += 1
+    #
+    #             i = 0
+    #             pk = ""
+    #             if keys.__len__() != 0:
+    #                 while i < keys.__len__():
+    #                     if pk == "":
+    #                         pk += "primary key("+keys[i]
+    #                     else:
+    #                         pk += ","+keys[i]
+    #                     i+=1
+    #             pk+=")"
+    #             if pk != "":
+    #                 fs+=","+pk
+    #             fs += ")"
+    #             sql += fs
+    #         return sql
+    #
+    #
+    # sql = "create TABLE " + tb;
+    # fields = ["a","b","c"]
+    # types = ["varchar(10)","int","float"]
+    # keys = ["a"]
+    #
+    # print(createTable(tb,fields,keys,types))
+
 
