@@ -1,0 +1,33 @@
+2016-05-11 19:39:38 INFO --------回收Scaned--------:0
+2016-05-11 19:39:38 ERROR 创建表失败:<class '_mysql_exceptions.OperationalError'>(1050, "Table 'user' already exists")
+2016-05-11 19:39:38 INFO 开始分析:http://tieba.baidu.com/home/main?un=1OOO赞&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:38 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:39:39 DEBUG "GET /home/main?un=1OOO%E8%B5%9E&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:39:39 INFO start threadjt6dp7
+2016-05-11 19:39:39 INFO start thread画扇y悲风鸭
+2016-05-11 19:39:39 INFO start threadyamateh9173反
+2016-05-11 19:39:39 INFO start threadzechboy1990眯
+2016-05-11 19:39:39 INFO start thread逝去变成记忆
+2016-05-11 19:39:39 INFO start threadyearkimking5
+2016-05-11 19:39:39 INFO start thread苏小戊
+2016-05-11 19:39:39 INFO start threadephiroths
+2016-05-11 19:39:39 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=1OOO赞&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:39 INFO ---存储数据---
+2016-05-11 19:39:39 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞' for key 'PRIMARY'")
+2016-05-11 19:39:39 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-江西财经大学' for key 'PRIMARY'")
+2016-05-11 19:39:39 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-jt6dp7' for key 'PRIMARY'")
+2016-05-11 19:39:39 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-丿花满楼灬光光' for key 'PRIMARY'")
+2016-05-11 19:39:40 INFO 开始分析:http://tieba.baidu.com/home/main?un=zechboy1990眯&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:40 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:39:40 DEBUG "GET /home/main?un=zechboy1990%E7%9C%AF&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:39:40 INFO start thread还钱找我
+2016-05-11 19:39:40 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=zechboy1990眯&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:40 INFO ---存储数据---
+2016-05-11 19:39:40 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'zechboy1990眯' for key 'PRIMARY'")
+2016-05-11 19:39:40 ERROR 存储论坛信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:39:40 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'zechboy1990眯-还钱找我' for key 'PRIMARY'")
+2016-05-11 19:39:40 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'zechboy1990眯-圣光拳者' for key 'PRIMARY'")
+2016-05-11 19:39:40 INFO 开始分析:http://tieba.baidu.com/home/main?un=画扇y悲风鸭&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:40 INFO 开始分析:http://tieba.baidu.com/home/main?un=狮子像赖皮狗&fr=ibaidu&ie=utf-8
+2016-05-11 19:39:40 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:39:40 INFO Starting new HTTP connection (1): tieba.baidu.com

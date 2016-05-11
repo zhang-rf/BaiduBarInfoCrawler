@@ -1,0 +1,75 @@
+2016-05-11 19:00:21 INFO 开始分析:http://tieba.baidu.com/home/main?un=1OOO赞&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:22 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:22 DEBUG "GET /home/main?un=1OOO%E8%B5%9E&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:22 INFO 开始分析:http://tieba.baidu.com/home/main?un=苏小戊&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:22 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:23 DEBUG "GET /home/main?un=%E8%8B%8F%E5%B0%8F%E6%88%8A&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:23 INFO 开始分析:http://tieba.baidu.com/home/main?un=逝去变成记忆&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:23 INFO 开始分析:http://tieba.baidu.com/home/main?un=霾角&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:23 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:23 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:24 DEBUG "GET /home/main?un=%E9%80%9D%E5%8E%BB%E5%8F%98%E6%88%90%E8%AE%B0%E5%BF%86&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:24 DEBUG "GET /home/main?un=%E9%9C%BE%E8%A7%92&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:24 INFO 开始分析:http://tieba.baidu.com/home/main?un=丿花满楼灬光光&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:24 INFO 开始分析:http://tieba.baidu.com/home/main?un=释放巅峰&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:24 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:24 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:24 INFO 开始分析:http://tieba.baidu.com/home/main?un=DDsuriel&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:24 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:24 INFO 开始分析:http://tieba.baidu.com/home/main?un=厸情义丿神话&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:24 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:25 DEBUG "GET /home/main?un=%E4%B8%BF%E8%8A%B1%E6%BB%A1%E6%A5%BC%E7%81%AC%E5%85%89%E5%85%89&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:25 DEBUG "GET /home/main?un=%E5%8E%B8%E6%83%85%E4%B9%89%E4%B8%BF%E7%A5%9E%E8%AF%9D&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:25 DEBUG "GET /home/main?un=%E9%87%8A%E6%94%BE%E5%B7%85%E5%B3%B0&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:25 DEBUG "GET /home/main?un=DDsuriel&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:25 INFO 开始分析:http://tieba.baidu.com/home/main?un=剑器进&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:25 INFO 开始分析:http://tieba.baidu.com/home/main?un=看讲我阜头让像&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:25 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:25 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=我是小暖男呀&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=超级Roxanne&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E7%9C%8B%E8%AE%B2%E6%88%91%E9%98%9C%E5%A4%B4%E8%AE%A9%E5%83%8F&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E5%89%91%E5%99%A8%E8%BF%9B&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=老鬼子跳舞捶&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=人心比毒更毒v1&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E6%88%91%E6%98%AF%E5%B0%8F%E6%9A%96%E7%94%B7%E5%91%80&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E8%B6%85%E7%BA%A7Roxanne&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=一曲浅末微夏&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=KUROKYSSS乒&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=_晓_通WJ&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=kanglongyao200&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=灵魂使者橘子&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=大大大文文文文&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E4%BA%BA%E5%BF%83%E6%AF%94%E6%AF%92%E6%9B%B4%E6%AF%92v1&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E8%80%81%E9%AC%BC%E5%AD%90%E8%B7%B3%E8%88%9E%E6%8D%B6&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=%E4%B8%80%E6%9B%B2%E6%B5%85%E6%9C%AB%E5%BE%AE%E5%A4%8F&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=叫我时虐虐好吗&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=ei0rr6&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO 开始分析:http://tieba.baidu.com/home/main?un=愿平安j点i点gp&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=kanglongyao200&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:26 DEBUG "GET /home/main?un=KUROKYSSS%E4%B9%92&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:27 DEBUG "GET /home/main?un=%E5%A4%A7%E5%A4%A7%E5%A4%A7%E6%96%87%E6%96%87%E6%96%87%E6%96%87&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:27 DEBUG "GET /home/main?un=_%E6%99%93_%E9%80%9AWJ&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:27 DEBUG "GET /home/main?un=ei0rr6&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:27 DEBUG "GET /home/main?un=%E6%84%BF%E5%B9%B3%E5%AE%89j%E7%82%B9i%E7%82%B9gp&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:00:27 INFO 开始分析:http://tieba.baidu.com/home/main?un=若_飛铀&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:27 INFO 开始分析:http://tieba.baidu.com/home/main?un=520林雪kiss&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:27 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:27 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:27 INFO 开始分析:http://tieba.baidu.com/home/main?un=沂充任顿&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:27 INFO 开始分析:http://tieba.baidu.com/home/main?un=汉森baby&fr=ibaidu&ie=utf-8
+2016-05-11 19:00:27 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:00:27 INFO Starting new HTTP connection (1): tieba.baidu.com

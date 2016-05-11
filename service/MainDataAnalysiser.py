@@ -1,8 +1,8 @@
 #-*-coding:utf8-*-
 import re
 
-from database.Model import *
-from service.AnalysiserCreater import AnalysiserCreater
+from MyCrawlerLib.database.Model import *
+from MyCrawlerLib.service.AnalysiserCreater import AnalysiserCreater
 
 #可能会抛出数据解析错误的异常
 class MainDataAnalysiser(object):

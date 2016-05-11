@@ -1,0 +1,373 @@
+2016-05-11 19:32:43 INFO --------回收Scaned--------:0
+2016-05-11 19:32:43 ERROR 创建表失败:<class '_mysql_exceptions.OperationalError'>(1050, "Table 'user' already exists")
+2016-05-11 19:32:43 INFO 开始分析:http://tieba.baidu.com/home/main?un=1OOO赞&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:44 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:44 DEBUG "GET /home/main?un=1OOO%E8%B5%9E&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:45 INFO start threadjt6dp7
+2016-05-11 19:32:45 INFO start thread画扇y悲风鸭
+2016-05-11 19:32:45 INFO start threadyamateh9173反
+2016-05-11 19:32:45 INFO start threadzechboy1990眯
+2016-05-11 19:32:45 INFO start thread逝去变成记忆
+2016-05-11 19:32:45 INFO start threadyearkimking5
+2016-05-11 19:32:45 INFO start thread苏小戊
+2016-05-11 19:32:45 INFO start threadephiroths
+2016-05-11 19:32:45 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=1OOO赞&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:45 INFO ---存储数据---
+2016-05-11 19:32:45 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞' for key 'PRIMARY'")
+2016-05-11 19:32:45 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-江西财经大学' for key 'PRIMARY'")
+2016-05-11 19:32:45 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-jt6dp7' for key 'PRIMARY'")
+2016-05-11 19:32:45 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '1OOO赞-丿花满楼灬光光' for key 'PRIMARY'")
+2016-05-11 19:32:45 INFO 开始分析:http://tieba.baidu.com/home/main?un=yamateh9173反&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:45 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:46 DEBUG "GET /home/main?un=yamateh9173%E5%8F%8D&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:46 INFO start thread杏花烟雨醉江南
+2016-05-11 19:32:46 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=yamateh9173反&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:46 INFO ---存储数据---
+2016-05-11 19:32:46 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yamateh9173反' for key 'PRIMARY'")
+2016-05-11 19:32:46 ERROR 存储论坛信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:46 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yamateh9173反-杏花烟雨醉江南' for key 'PRIMARY'")
+2016-05-11 19:32:46 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yamateh9173反-王王王焱鑫' for key 'PRIMARY'")
+2016-05-11 19:32:46 INFO 开始分析:http://tieba.baidu.com/home/main?un=苏小戊&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:46 INFO 开始分析:http://tieba.baidu.com/home/main?un=人若蒼井空似水&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:46 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:46 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:46 DEBUG "GET /home/main?un=%E4%BA%BA%E8%8B%A5%E8%92%BC%E4%BA%95%E7%A9%BA%E4%BC%BC%E6%B0%B4&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:47 DEBUG "GET /home/main?un=%E8%8B%8F%E5%B0%8F%E6%88%8A&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:47 INFO start thread誰在弹奏安祥彼
+2016-05-11 19:32:47 INFO start thread兮若沐裙妥
+2016-05-11 19:32:47 INFO start threadsh773629167a倮
+2016-05-11 19:32:47 INFO start thread毒娘love诱惑趾
+2016-05-11 19:32:47 INFO start thread故人已北亦深情
+2016-05-11 19:32:47 INFO start threadzzzzzz77钩
+2016-05-11 19:32:47 INFO start threadaz52416改
+2016-05-11 19:32:47 INFO start thread鹏一生忠橙仍
+2016-05-11 19:32:47 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=人若蒼井空似水&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO ---存储数据---
+2016-05-11 19:32:47 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '人若蒼井空似水' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '人若蒼井空似水-耳机' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '人若蒼井空似水-誰在弹奏安祥彼' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '人若蒼井空似水-鱼飞苍穹8' for key 'PRIMARY'")
+2016-05-11 19:32:47 INFO 开始分析:http://tieba.baidu.com/home/main?un=Seraphgzh&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO 开始分析:http://tieba.baidu.com/home/main?un=新西兰的奇异果&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:47 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:47 INFO start thread臭小子╮别太拽
+2016-05-11 19:32:47 INFO start thread岁月静好wz
+2016-05-11 19:32:47 INFO start threadDDsuriel
+2016-05-11 19:32:47 INFO start threadulanus
+2016-05-11 19:32:47 INFO start thread霾角
+2016-05-11 19:32:47 INFO start thread老衲再也不敢了
+2016-05-11 19:32:47 INFO start threadSusie美子
+2016-05-11 19:32:47 INFO start thread我的男人_WH
+2016-05-11 19:32:47 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=苏小戊&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO ---存储数据---
+2016-05-11 19:32:47 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '苏小戊' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '苏小戊-小时玥' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '苏小戊-臭小子╮别太拽' for key 'PRIMARY'")
+2016-05-11 19:32:47 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '苏小戊-我知你长短33' for key 'PRIMARY'")
+2016-05-11 19:32:47 INFO 开始分析:http://tieba.baidu.com/home/main?un=yearkimking5&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO 开始分析:http://tieba.baidu.com/home/main?un=老衲再也不敢了&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:47 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:47 DEBUG "GET /home/main?un=%E6%96%B0%E8%A5%BF%E5%85%B0%E7%9A%84%E5%A5%87%E5%BC%82%E6%9E%9C&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:47 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:48 DEBUG "GET /home/main?un=Seraphgzh&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:48 DEBUG "GET /home/main?un=%E8%80%81%E8%A1%B2%E5%86%8D%E4%B9%9F%E4%B8%8D%E6%95%A2%E4%BA%86&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:48 DEBUG "GET /home/main?un=yearkimking5&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:48 INFO start threadljipan379
+2016-05-11 19:32:48 INFO start thread人若蒼井空似水
+2016-05-11 19:32:48 INFO start threadyxg1993旱
+2016-05-11 19:32:48 INFO start thread丶叶落轮回
+2016-05-11 19:32:48 INFO start thread冰加柠檬VIP
+2016-05-11 19:32:48 INFO start thread龙幽OStea
+2016-05-11 19:32:48 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=新西兰的奇异果&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO ---存储数据---
+2016-05-11 19:32:48 INFO start thread辰锤通
+2016-05-11 19:32:48 INFO start thread柜葬煤
+2016-05-11 19:32:48 INFO start thread南货研月
+2016-05-11 19:32:48 INFO start thread李_文轩9e1
+2016-05-11 19:32:48 INFO start thread挽尊者丶0o6
+2016-05-11 19:32:48 INFO start thread少恭的1号焦冥
+2016-05-11 19:32:48 INFO start threadqinduwg204
+2016-05-11 19:32:48 INFO start threadjuxiongpy394
+2016-05-11 19:32:48 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=Seraphgzh&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO ---存储数据---
+2016-05-11 19:32:48 INFO 开始分析:http://tieba.baidu.com/home/main?un=好吃汤圆&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO 开始分析:http://tieba.baidu.com/home/main?un=龙幽OStea&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:48 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'Seraphgzh' for key 'PRIMARY'")
+2016-05-11 19:32:48 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:48 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'Seraphgzh-李毅' for key 'PRIMARY'")
+2016-05-11 19:32:48 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'Seraphgzh-李_文轩9e1' for key 'PRIMARY'")
+2016-05-11 19:32:48 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'Seraphgzh-这一缕微笑带着' for key 'PRIMARY'")
+2016-05-11 19:32:48 INFO 开始分析:http://tieba.baidu.com/home/main?un=小小的分针&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO 开始分析:http://tieba.baidu.com/home/main?un=李_文轩9e1&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:48 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:48 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:48 INFO start threadJackalCooper
+2016-05-11 19:32:48 INFO start thread娅琼smile
+2016-05-11 19:32:48 INFO start thread纵欲undue丶
+2016-05-11 19:32:49 INFO start thread叶子韵520
+2016-05-11 19:32:49 INFO start thread撸管撸到呕血
+2016-05-11 19:32:49 INFO start threada1021627046
+2016-05-11 19:32:49 INFO start thread敌人全是大神
+2016-05-11 19:32:49 INFO start threadSTingDmooN
+2016-05-11 19:32:49 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=老衲再也不敢了&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO ---存储数据---
+2016-05-11 19:32:49 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '老衲再也不敢了' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '老衲再也不敢了-魔兽争霸' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '老衲再也不敢了-JackalCooper' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '老衲再也不敢了-全是猫_' for key 'PRIMARY'")
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=岁月静好wz&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=生子当孙伯符也&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E9%BE%99%E5%B9%BDOStea&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E6%9D%8E_%E6%96%87%E8%BD%A99e1&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E5%B0%8F%E5%B0%8F%E7%9A%84%E5%88%86%E9%92%88&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E5%A5%BD%E5%90%83%E6%B1%A4%E5%9C%86&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=yearkimking5&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO ---存储数据---
+2016-05-11 19:32:49 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yearkimking5' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yearkimking5-贾斯汀比伯' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储粉丝信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:49 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'yearkimking5-冰雪天然' for key 'PRIMARY'")
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=ephiroths&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=冰雪天然&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO start thread米奇奇1993
+2016-05-11 19:32:49 INFO start thread西装革履的流氓
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=龙幽OStea&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO ---存储数据---
+2016-05-11 19:32:49 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=李_文轩9e1&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO ---存储数据---
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E5%B2%81%E6%9C%88%E9%9D%99%E5%A5%BDwz&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E7%94%9F%E5%AD%90%E5%BD%93%E5%AD%99%E4%BC%AF%E7%AC%A6%E4%B9%9F&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=ephiroths&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '李_文轩9e1' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储论坛信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:49 ERROR 存储粉丝信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:49 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '李_文轩9e1-你不懂我懂xxx' for key 'PRIMARY'")
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=柜葬煤&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=声衬你&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 DEBUG "GET /home/main?un=%E5%86%B0%E9%9B%AA%E5%A4%A9%E7%84%B6&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=冰加柠檬VIP&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=薇Di守护&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO start threadyamateh9173反
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=小小的分针&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:49 INFO ---存储数据---
+2016-05-11 19:32:49 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:49 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '小小的分针' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '小小的分针-dota2' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '小小的分针-yamateh9173反' for key 'PRIMARY'")
+2016-05-11 19:32:49 ERROR 存储关注信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:49 INFO 开始分析:http://tieba.baidu.com/home/main?un=欧婷婷耶&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=%E6%9F%9C%E8%91%AC%E7%85%A4&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=%E5%A3%B0%E8%A1%AC%E4%BD%A0&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 INFO start thread西风淠
+2016-05-11 19:32:50 INFO start thread非尔米诺
+2016-05-11 19:32:50 INFO start thread中流谕静
+2016-05-11 19:32:50 INFO start threadam1nl1
+2016-05-11 19:32:50 INFO start threadtj1iq9
+2016-05-11 19:32:50 INFO start threadrl4eo1
+2016-05-11 19:32:50 INFO start threadnzhege360
+2016-05-11 19:32:50 INFO start threadlt龙天吧
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=%E5%86%B0%E5%8A%A0%E6%9F%A0%E6%AA%ACVIP&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=好吃汤圆&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO ---存储数据---
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=%E8%96%87Di%E5%AE%88%E6%8A%A4&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=%E6%AC%A7%E5%A9%B7%E5%A9%B7%E8%80%B6&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 INFO start thread大爱柯震东帅哥
+2016-05-11 19:32:50 INFO start thread苏小戊
+2016-05-11 19:32:50 INFO start thread黑白配0421
+2016-05-11 19:32:50 INFO start thread纯净的银
+2016-05-11 19:32:50 INFO start thread凝烟过去的温柔
+2016-05-11 19:32:50 INFO start thread梦里的妳的我
+2016-05-11 19:32:50 INFO start threadsilmence33
+2016-05-11 19:32:50 INFO start thread唐家三少996
+2016-05-11 19:32:50 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=岁月静好wz&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO ---存储数据---
+2016-05-11 19:32:50 INFO start threadWWDXN
+2016-05-11 19:32:50 INFO start thread上山采小狗
+2016-05-11 19:32:50 INFO start thread听落地雪花
+2016-05-11 19:32:50 INFO start threadwearechampion6
+2016-05-11 19:32:50 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=ephiroths&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO ---存储数据---
+2016-05-11 19:32:50 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '岁月静好wz' for key 'PRIMARY'")
+2016-05-11 19:32:50 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '岁月静好wz-小时玥' for key 'PRIMARY'")
+2016-05-11 19:32:50 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '岁月静好wz-大爱柯震东帅哥' for key 'PRIMARY'")
+2016-05-11 19:32:50 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '岁月静好wz-何惧何妨' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=故人已北亦深情&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=am1nl1&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=Susie美子&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'ephiroths' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=黑白配0421&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'ephiroths-刘亦菲' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'ephiroths-WWDXN' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'ephiroths-1OOO赞' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=jt6dp7&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=WWDXN&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 INFO start threadcud89m29yggs
+2016-05-11 19:32:50 INFO start thread一直很霸气1981
+2016-05-11 19:32:50 INFO start threadmiumiuxi1986
+2016-05-11 19:32:50 INFO start threadqiao4832656q
+2016-05-11 19:32:50 INFO start threadlt9mq3
+2016-05-11 19:32:50 INFO start threadokengrnh25
+2016-05-11 19:32:50 INFO start threadqe6mq6
+2016-05-11 19:32:50 INFO start threadnquemje731
+2016-05-11 19:32:50 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=生子当孙伯符也&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO ---存储数据---
+2016-05-11 19:32:50 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '生子当孙伯符也' for key 'PRIMARY'")
+2016-05-11 19:32:50 DEBUG "GET /home/main?un=jt6dp7&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:50 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '生子当孙伯符也-|' for key 'PRIMARY'")
+2016-05-11 19:32:50 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '生子当孙伯符也-cud89m29yggs' for key 'PRIMARY'")
+2016-05-11 19:32:50 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '生子当孙伯符也-33喜欢我吗' for key 'PRIMARY'")
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=惜丶年少轻狂&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO 开始分析:http://tieba.baidu.com/home/main?un=miumiuxi1986&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:50 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=Susie%E7%BE%8E%E5%AD%90&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=%E9%BB%91%E7%99%BD%E9%85%8D0421&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=%E6%95%85%E4%BA%BA%E5%B7%B2%E5%8C%97%E4%BA%A6%E6%B7%B1%E6%83%85&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=WWDXN&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO start threadyearkimking5
+2016-05-11 19:32:51 INFO start thread/home/main?un=今井层智&fr=home
+2016-05-11 19:32:51 INFO start thread最好是这样吧0
+2016-05-11 19:32:51 INFO start thread365940983
+2016-05-11 19:32:51 INFO start thread395194306a
+2016-05-11 19:32:51 INFO start thread爽歪歪_鑫
+2016-05-11 19:32:51 INFO start thread学生卖预约一个
+2016-05-11 19:32:51 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=冰雪天然&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO ---存储数据---
+2016-05-11 19:32:51 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=柜葬煤&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO ---存储数据---
+2016-05-11 19:32:51 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '冰雪天然' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '冰雪天然-北京师大附中' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '冰雪天然-yearkimking5' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储论坛信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:51 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '冰雪天然-qihuang444' for key 'PRIMARY'")
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=鈾汫alaxy&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 ERROR 存储粉丝信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=miumiuxi1986&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=395194306a&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=%E6%83%9C%E4%B8%B6%E5%B9%B4%E5%B0%91%E8%BD%BB%E7%8B%82&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=滋滋爱佑哥&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=47186002&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=am1nl1&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 INFO start thread李_文轩9e1
+2016-05-11 19:32:51 INFO start thread挽尊者丶0o6
+2016-05-11 19:32:51 INFO start thread小博伊卡7s0
+2016-05-11 19:32:51 INFO start thread少恭的1号焦冥
+2016-05-11 19:32:51 INFO start threadaz5sc8
+2016-05-11 19:32:51 INFO start thread她是孤单的心事
+2016-05-11 19:32:51 INFO start thread/home/main?un=服务灌南喔小姐&fr=home
+2016-05-11 19:32:51 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=声衬你&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO ---存储数据---
+2016-05-11 19:32:51 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '声衬你' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '声衬你-唱歌' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '声衬你-李_文轩9e1' for key 'PRIMARY'")
+2016-05-11 19:32:51 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '声衬你-asd456rx2007' for key 'PRIMARY'")
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=桂酒椒浆i&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO 开始分析:http://tieba.baidu.com/home/main?un=asd456rx2007&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=%E9%88%BE%E6%B1%ABalaxy&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO start thread一生伏首扬朱子
+2016-05-11 19:32:51 INFO start thread差1點就成熟缮
+2016-05-11 19:32:51 INFO start thread雷管崩床
+2016-05-11 19:32:51 INFO start threadgeio5662
+2016-05-11 19:32:51 INFO start thread执念有你凉君
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=%E6%BB%8B%E6%BB%8B%E7%88%B1%E4%BD%91%E5%93%A5&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO start threadnrghokageninja
+2016-05-11 19:32:51 INFO start thread/home/main?un=疯子的自导自演&fr=home
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=395194306a&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:51 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=冰加柠檬VIP&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:51 INFO ---存储数据---
+2016-05-11 19:32:51 DEBUG "GET /home/main?un=47186002&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO start threadfx1pt3
+2016-05-11 19:32:52 INFO start thread锄禾的辛梅
+2016-05-11 19:32:52 INFO start thread兆蛹抡垦
+2016-05-11 19:32:52 INFO start threadrl3sn9
+2016-05-11 19:32:52 INFO start thread毡梯功
+2016-05-11 19:32:52 INFO start threadqy0mi5
+2016-05-11 19:32:52 INFO start thread安廸_埝鷄冰丶
+2016-05-11 19:32:52 INFO start thread徐_327牡
+2016-05-11 19:32:52 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=薇Di守护&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO ---存储数据---
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=%E6%A1%82%E9%85%92%E6%A4%92%E6%B5%86i&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=形意拳学徒&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=nrghokageninja&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=asd456rx2007&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO start thread一笑倾城_凝炔
+2016-05-11 19:32:52 INFO start thread东风不来0
+2016-05-11 19:32:52 INFO start thread天之青龙U2
+2016-05-11 19:32:52 INFO start thread手残小胡愿
+2016-05-11 19:32:52 INFO start threadyamateh9173反
+2016-05-11 19:32:52 INFO start thread不良少年CXD钥
+2016-05-11 19:32:52 INFO start thread俺约你
+2016-05-11 19:32:52 INFO start thread上帝他妹的
+2016-05-11 19:32:52 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=欧婷婷耶&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO ---存储数据---
+2016-05-11 19:32:52 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '欧婷婷耶' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '欧婷婷耶-兵哥哥' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '欧婷婷耶-一笑倾城_凝炔' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '欧婷婷耶-一笑倾城_凝炔' for key 'PRIMARY'")
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=此来花下&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=东风不来0&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=暖Summ3r&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=qy0mi5&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=jt6dp7&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO ---存储数据---
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=%E5%BD%A2%E6%84%8F%E6%8B%B3%E5%AD%A6%E5%BE%92&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'jt6dp7' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储论坛信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:52 ERROR 存储粉丝信息失败<class 'IndexError'>list index out of range
+2016-05-11 19:32:52 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry 'jt6dp7-時代丶小青年' for key 'PRIMARY'")
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=逝去变成记忆&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=失去童话的故事&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 INFO start threadLY_格桑
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=%E6%AD%A4%E6%9D%A5%E8%8A%B1%E4%B8%8B&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO start thread如何能忘掉痛楚
+2016-05-11 19:32:52 INFO start thread姐夫在这里
+2016-05-11 19:32:52 INFO start thread浩喃小鼠郎
+2016-05-11 19:32:52 INFO start thread被晒焦的小耳朵
+2016-05-11 19:32:52 INFO start thread醉酒当歌〃
+2016-05-11 19:32:52 INFO start thread泪水倾国
+2016-05-11 19:32:52 INFO start threadDr丶小时
+2016-05-11 19:32:52 INFO 分析URL结束:http://tieba.baidu.com/home/main?un=黑白配0421&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO ---存储数据---
+2016-05-11 19:32:52 ERROR 存储用户信息失败:<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '黑白配0421' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储论坛信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '黑白配0421-李毅' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储粉丝信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '黑白配0421-LY_格桑' for key 'PRIMARY'")
+2016-05-11 19:32:52 ERROR 存储关注信息失败<class '_mysql_exceptions.IntegrityError'>(1062, "Duplicate entry '黑白配0421-狐狸君小幂' for key 'PRIMARY'")
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=几度空虚几场梦&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO 开始分析:http://tieba.baidu.com/home/main?un=醉酒当歌〃&fr=ibaidu&ie=utf-8
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=qy0mi5&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO Starting new HTTP connection (1): tieba.baidu.com
+2016-05-11 19:32:52 DEBUG "GET /home/main?un=%E5%A4%B1%E5%8E%BB%E7%AB%A5%E8%AF%9D%E7%9A%84%E6%95%85%E4%BA%8B&fr=ibaidu&ie=utf-8 HTTP/1.1" 200 None
+2016-05-11 19:32:52 INFO start thread龚滋偿露知土
+2016-05-11 19:32:52 INFO start threadmengkzain584
+2016-05-11 19:32:52 INFO start thread铜谷搅霸

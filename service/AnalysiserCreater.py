@@ -1,6 +1,6 @@
 #-*-coding:utf8-*-
-from tools.Analyiser import Analysiser
-from tools.HtmlTools import HtmlTools
+from MyCrawlerLib.tools.Analyiser import Analysiser
+from MyCrawlerLib.tools.HtmlTools import HtmlTools
 
 class AnalysiserCreater(object):
     def __init__(self,url):

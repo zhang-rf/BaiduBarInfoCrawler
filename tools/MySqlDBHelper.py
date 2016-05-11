@@ -16,72 +16,55 @@ class MySqlDBHelper(object):
             print("connecter close ERROR")
 
     def getConnect(self,host,user,password,db,port):
-        try:
-            #python3.x之后，str字符集默认是Unicode，故没有了encode这个内置函数
-            #将数据库的字符集设为utf8后，就不再发生 'latin-1' codec can't encode character '\u8d5e'
-            con = MySQLdb.connect(host = host,user = user, passwd = password, db = db, port = port,charset= 'utf8')
-            return con
-        except MySQLdb.Error:
-            print("Connect Error")
-            return None
+        #python3.x之后，str字符集默认是Unicode，故没有了encode这个内置函数
+        #将数据库的字符集设为utf8后，就不再发生 'latin-1' codec can't encode character '\u8d5e'
+        con = MySQLdb.connect(host = host,user = user, passwd = password, db = db, port = port,charset= 'utf8')
+        return con
 
     def query(self,sql,arg = None):
         """ Return the results(Tuples) after executing SQL statement """
-        try:
-            cur = self.connecter.cursor()
-            cur.execute(sql,arg)
-            result = cur.fetchall()
-            cur.close()
-            return result
-        except:
-            print("Query Error:"+sql)
-            return ()
+        cur = self.connecter.cursor()
+        cur.execute(sql,arg)
+        result = cur.fetchall()
+        cur.close()
+        return result
 
     def insert(self,table,args):
         """ insert a row into the table,please make sure that the location of the parameter in the line is correct"""
-        try:
-            num = args.__len__()
-            sql = 'insert into ' + table + " values(";
-            i = 0
-            while i< num:
-                sql += '%s'
-                i += 1
-                if i == num:
-                    sql += ')'
-                else:
-                    sql += ','
-            cur = self.connecter.cursor()
-            r = cur.execute(sql,args)
-            self.connecter.commit()
+        num = args.__len__()
+        sql = 'insert into ' + table + " values(";
+        i = 0
+        while i< num:
+            sql += '%s'
+            i += 1
+            if i == num:
+                sql += ')'
+            else:
+                sql += ','
+        cur = self.connecter.cursor()
+        r = cur.execute(sql,args)
+        self.connecter.commit()
 
-            cur.close()
-            return r
-        except:
-            print("Insert Error-Table:"+table)
-            return 0
+        cur.close()
+        return r
 
     def batchInsert(self, table, values):
         """ Batch insertions of row data into :table.Values must be a LIST of TUPLES """
-        try:
-        # if True:
-            num = values[0].__len__()
-            sql = 'insert into ' + table + " values(";
-            i = 0
-            while i< num:
-                sql += '%s'
-                i += 1
-                if i == num:
-                    sql += ')'
-                else:
-                    sql += ','
-            cur = self.connecter.cursor()
-            r = cur.executemany(sql,values)
-            self.connecter.commit()
-            cur.close()
-            return r
-        except:
-            print("Insert Error-Table:"+table)
-            return 0
+        num = values[0].__len__()
+        sql = 'insert into ' + table + " values(";
+        i = 0
+        while i< num:
+            sql += '%s'
+            i += 1
+            if i == num:
+                sql += ')'
+            else:
+                sql += ','
+        cur = self.connecter.cursor()
+        r = cur.executemany(sql,values)
+        self.connecter.commit()
+        cur.close()
+        return
 
     def update(self,sql,args=None):
         """ Update or delete, args must be a list"""
@@ -96,91 +79,76 @@ class MySqlDBHelper(object):
             return 0
 
     def createDatabase(self,name):
-        try:
-            cursor = self.connecter.cursor()
-            sql = "create database " + name
-            cursor.execute(sql)
-            return True
-        except:
-            print("Database exist or cursor error")
-            return False
+        cursor = self.connecter.cursor()
+        sql = "create database " + name
+        cursor.execute(sql)
+        return True
+
 
     def createTable(self,tableName):
-        try:
-            cursor = self.connecter.cursor()
-            sql = "create database " + tableName
-            cursor.execute(sql)
-            return True
-        except:
-            print("Database exist or cursor error")
-            return False
+        cursor = self.connecter.cursor()
+        sql = "create database " + tableName
+        cursor.execute(sql)
+        return True
 
     def getAllDatabase(self):
-        try:
-            dbList = []
-            cursor = self.connecter.cursor()
-            cursor.execute("show databases")
-            for db in cursor.fetchall():
-                dbList.append(db[0])
-            return dbList
-        except:
-            print("getAllDatabase error")
-            return None
+       dbList = []
+       cursor = self.connecter.cursor()
+       cursor.execute("show databases")
+       for db in cursor.fetchall():
+           dbList.append(db[0])
+       return dbList
 
     def getAllTables(self,database):
-        try:
-            cursor = self.connecter.cursor()
-            cursor.execute("use "+database)
-            cursor.execute("show tables")
-            tables = []
-            for tab in cursor.fetchall():
-                tables.append(tab)
-            return tables
-        except:
-            print("getAllTables error")
-            return None
+
+        cursor = self.connecter.cursor()
+        cursor.execute("use "+database)
+        cursor.execute("show tables")
+        tables = []
+        for tab in cursor.fetchall():
+            tables.append(tab)
+        return tables
+
 
     def createTable(self,db,tableName,fields,keys,types):
         """:db 数据库名, fields: 字段列表，keys: 主键列表，types:字段对应的类型"""
-        try:
-            if fields == None or fields.__len__() == 0 or fields.__len__() != types.__len__():
-                return False
-            if keys == None:
-                keys = []
 
-            self.connecter.cursor().execute("use "+db)
-            if(tableName not in self.getAllTables(db)):
-                sql = "create TABLE " + tableName;
-                fs = "("
-                i = 0
-                while i < fields.__len__():
-                    if fs != "(":
-                        fs +=","
-                    fs +=( fields[i]+" " + types[i] + " ")
-                    i += 1
-
-                i = 0
-                pk = ""
-                if keys.__len__() != 0:
-                    while i < keys.__len__():
-                        if pk == "":
-                            pk += "primary key("+keys[i]
-                        else:
-                            pk += ","+keys[i]
-                        i+=1
-                pk+=")"
-                if pk != "":
-                    fs+=","+pk
-                fs += ")"
-                sql += fs
-                self.connecter.cursor().execute(sql)
-                print("create_table Success")
-                return True
-            else:
-                return False
-        except:
-            print("CreateTable error")
+        if fields == None or fields.__len__() == 0 or fields.__len__() != types.__len__():
             return False
+        if keys == None:
+            keys = []
+
+        self.connecter.cursor().execute("use "+db)
+        if(tableName not in self.getAllTables(db)):
+            sql = "create TABLE " + tableName;
+            fs = "("
+            i = 0
+            while i < fields.__len__():
+                if fs != "(":
+                    fs +=","
+                fs +=( fields[i]+" " + types[i] + " ")
+                i += 1
+
+            i = 0
+            pk = ""
+            if keys.__len__() != 0:
+                while i < keys.__len__():
+                    if pk == "":
+                        pk += "primary key("+keys[i]
+                    else:
+                        pk += ","+keys[i]
+                    i+=1
+            pk+=")"
+            if pk != "":
+                fs+=","+pk
+            fs += ")"
+            sql += fs
+            self.connecter.cursor().execute(sql)
+            print("create_table Success")
+            return True
+        else:
+            return False
+
 
 
 
