@@ -1,9 +1,10 @@
 # Simple Crawler(Python3.5)
 在学习Python的过程中尝试写的一个多线程爬虫工具，希望通过爬取贴吧的数据来分析贴吧用户的好友关系。
+（在tools包中的模块都可以单独拿出来用，其中包括自定义的##线程池##，MySQL数据库通用模块等）
 
 ## 使用方法
 >
-* 将该库放到python的Lib目录下（当然也可以直接修改代码定制自己的爬虫）
+* 将该库放到python的Lib目录下，直接调用beginCrawler函数即可（当然也可以直接修改代码定制自己的爬虫）
 * 在python程序中import MyCrawler
 * 配置SysConfig.ini, DbConnect.ini, XpathConfig.ini
 * 调用beginCrawler,将SysConfig.ini文件的路径作为参数传入，然后运行程序就行了
